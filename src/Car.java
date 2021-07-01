@@ -15,4 +15,9 @@ public class Car {
 		// can also be written as inputColor = color
 	   this.color=inputcolor;
    }
+   
+   public String getOutput()
+   {
+	  return this.color; 
+   }
 }
